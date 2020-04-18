@@ -1,0 +1,55 @@
+.drop0 {
+    height: 1.75rem;
+    width: 0.25rem;
+    background-color: lightgray;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 99;
+    border-radius: 1rem;
+}
+
+.drop1 {
+    height: 1.5rem;
+    width: 0.15rem;
+    background-color: lightgray;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 99;
+}
+
+.drop2 {
+    height: 1rem;
+    width: 0.15rem;
+    background-color: lightgray;
+    opacity: 0.15;
+    position: absolute;
+    z-index: 99;
+}
+
+.drop3 {
+    height: 1.5rem;
+    width: 0.15rem;
+    background-color: lightgray;
+    opacity: 0.1;
+    position: absolute;
+    z-index: 99;
+}
+
+.drop4 {
+    height: 1.5rem;
+    width: 0.15rem;
+    background-color: lightgray;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 99;
+}
+
+.dropInvisible {
+    display: none;
+    opacity: 0;
+}
+
+.drop {
+    border-radius: 1rem;
+
+}

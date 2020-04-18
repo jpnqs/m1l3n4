@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/rain.css">
+    <link rel="stylesheet" href="styles/sun.css">
+</head>
+<body id="body">
+    <div id="text" class="text rain front-row">
+    </div>
+    <div id="image"><img id="i" draggable="false"></div>
+    <button id="repeat" onclick="startAnimation()">
+        <div id="repeat-content">
+            <img src="images/repeat.svg" class="btnIcon">
+            <span>noch mal!</span>
+        </div>
+    </button>
+    <div id="sun" class="sun">
+        <div class="ray_box">
+            <div class="ray ray1"></div>
+            <div class="ray ray2"></div>
+            <div class="ray ray3"></div>
+            <div class="ray ray4"></div>
+            <div class="ray ray5"></div>
+            <div class="ray ray6"></div>
+            <div class="ray ray7"></div>
+            <div class="ray ray8"></div>
+            <div class="ray ray9"></div>
+            <div class="ray ray10"></div>
+        </div>
+    </div>
+    <script src="scripts/lib/jquery-3.4.1.min.js"></script>
+    <script src="scripts/lib/jquery.color-2.1.2.min.js"></script>
+    <script src="scripts/Presenter.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
