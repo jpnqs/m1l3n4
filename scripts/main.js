@@ -1,7 +1,3 @@
-/**
- * @template https://github.com/jpnqs/HBM20
- */
-
 // dummy loading der bilder um delay innerhalb der nachricht
 // zu minimieren
 const images = [
