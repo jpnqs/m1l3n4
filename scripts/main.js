@@ -5,10 +5,10 @@
 // dummy loading der bilder um delay innerhalb der nachricht
 // zu minimieren
 const images = [
-    // "https://jpnqs.github.io/IsfdieTb/images/01.gif",
-    // "https://jpnqs.github.io/IsfdieTb/images/free-hug.gif"
-    "/images/01.gif",
-    "/images/free-hug.gif"
+    "https://jpnqs.github.io/m1l3n4/images/01.gif",
+    "https://jpnqs.github.io/m1l3n4/images/free-hug.gif"
+    // "/images/01.gif",
+    // "/images/free-hug.gif"
 ];
 
 Presenter.dummyLoad(images);
