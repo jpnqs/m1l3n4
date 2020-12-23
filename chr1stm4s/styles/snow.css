@@ -1,0 +1,118 @@
+@keyframes snowflakes-shake {
+	0%,
+	100% {
+		transform: translateX(0)
+	}
+	50% {
+		transform: translateX(20px)
+	}
+}
+
+.snowflake {
+    color: white;
+    position: absolute;
+    top: -1rem;
+    left: 0px;
+    font-size: 16pt;
+    -webkit-animation: upDown 1.5s alternate infinite ease-in-out;
+    animation: upDown 1.5s alternate infinite ease-in-out;
+
+}
+
+.snowflake-0 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.snowflake-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.snowflake-2 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+.snowflake-3 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+.snowflake-4 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+@keyframes upDown {
+    to { transform: translatex(30px);}
+}
+@keyframes translate {
+    to { transform: translatex(900%);}
+}
+
+.snowflakes {
+    height: 100%;
+    width: 100%;
+    position:relative;
+    overflow:hidden;
+    background: #082f3d;
+    background: radial-gradient(circle, rgba(12,65,84,1) 0%, rgba(8,47,61,1) 100%);
+}
+
+.snowflake {
+    font-size: 80pt;
+    opacity: 0.9;
+}
+
+.snowflake-middle {
+    
+}
+
+.snowflake-far {
+    font-size: 40pt;
+    opacity: 0.3;
+}
+
+
+/*
+snowflake
+*/
+
+.sf {
+    position: absolute;
+    color: white;
+    font-size: "Comic Neue";
+    animation: rotate-sf 12s alternate infinite ease-in-out;
+
+}
+
+.sf-wrapper {
+    position: absolute;
+    animation: upDown 1.5s alternate infinite ease-in-out;
+}
+
+.sf-large {
+    font-size: 180pt;
+    opacity: 0.9;
+    color: transparent;
+    text-shadow: 0 0 0.5rem rgba(255, 255, 255, 1);
+}
+
+.sf-medium {
+    font-size: 160pt;
+    opacity: 0.9;
+    color: transparent;
+    text-shadow: 0 0 0.8rem rgba(255, 255, 255, 0.9);
+}
+
+.sf-small {
+    font-size: 140pt;
+    opacity: 1;
+    color: transparent;
+    text-shadow: 0 0 1rem rgba(255, 255, 255, 0.75);
+}
+
+@keyframes rotate-sf {
+    to { 
+        transform: rotate(-200deg);
+    }
+}

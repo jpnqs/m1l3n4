@@ -1,0 +1,135 @@
+/* Color Theme Swatches in Hex */
+.Royal-Blue-1-hex {
+    color: #021032;
+}
+
+.Royal-Blue-2-hex {
+    color: #063CBF;
+}
+
+.Royal-Blue-3-hex {
+    color: #0850FF;
+}
+
+.Royal-Blue-4-hex {
+    color: #021440;
+}
+
+.Royal-Blue-5-hex {
+    color: #0748E5;
+}
+
+/* Color Theme Swatches in RGBA */
+.Royal-Blue-1-rgba {
+    color: rgba(2, 16, 49, 1);
+}
+
+.Royal-Blue-2-rgba {
+    color: rgba(5, 59, 191, 1);
+}
+
+.Royal-Blue-3-rgba {
+    color: rgba(8, 80, 255, 1);
+}
+
+.Royal-Blue-4-rgba {
+    color: rgba(2, 20, 63, 1);
+}
+
+.Royal-Blue-5-rgba {
+    color: rgba(7, 72, 228, 1);
+}
+
+#card {
+    opacity: 0;
+    transition: 1s;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+html {
+    font-family: 'Comic Neue';
+}
+
+body {
+    background: -webkit-radial-gradient(bottom, ellipse cover, #021440 0%, #021032 100%);
+    background: -webkit-radial-gradient(ellipse at bottom, #021440 0%, #021032 100%);
+    background: -webkit-radial-gradient(bottom, ellipse, #021440 0%, #021032 100%);
+    background: radial-gradient(ellipse at bottom, #021440 0%, #021032 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#094c72', endColorstr='#01293f', GradientType=1);
+    background-repeat: no-repeat;
+}
+
+#snow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fullscreen {
+    height: 100%;
+    width: 100%;
+}
+
+.shadow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+#msg {
+    font-family: "Comic Neue";
+    font-size: 50pt;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hint-container {
+    position: absolute;
+    width: 100%;
+    bottom: 2rem;
+    font-size: 60pt;
+    color: white;
+    text-align: center;
+}
+
+.hint-fade {
+    animation: hint-fade 1.5s alternate infinite ease-in-out;
+}
+
+#help-msg-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60pt;
+}

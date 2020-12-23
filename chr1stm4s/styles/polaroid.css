@@ -1,0 +1,52 @@
+:root {
+    --strip-color: #fffff2;
+}
+
+.polaroid {
+    background-color: white;
+    padding: 1rem;
+    position: absolute;
+    transform: rotate(4deg);
+    left: 4.5rem;
+    top: 7rem;
+    -webkit-box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-inner {
+
+}
+
+.polaroid-image {
+    height: 47rem;
+}
+
+.polaroid-space {
+    height: 4rem;
+}
+
+.polaroid-text {
+    color: black;
+    font-size: 60pt;
+    text-shadow: none;
+}
+
+.polaroid-strip-1, .polaroid-strip-2 {
+    background-color: var(--strip-color);
+    opacity: 0.6;
+    position: absolute;
+    height: 4rem;
+    width: 16rem;
+}
+
+.polaroid-strip-1 {
+    transform: rotate(-30deg);
+    top: 6.5rem;
+    left: 2.5rem;
+}
+
+.polaroid-strip-2 {
+    transform: rotate(-35deg);
+    top: 57rem;
+    left: 28.5rem;
+}

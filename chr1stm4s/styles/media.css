@@ -1,0 +1,23 @@
+@media (orientation: landscape) {
+
+    #root {
+        display: none;
+    }
+
+    #msg {
+        display: block;
+    }
+
+}
+
+@media (orientation: portrait) {
+    
+    #root {
+        display: block;
+    }
+
+    #msg {
+        display: none;
+    }
+
+}
