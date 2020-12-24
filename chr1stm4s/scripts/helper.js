@@ -45,10 +45,10 @@ function hideHelper() {
 
 function showHelperMessage() {
 
-    var oPlane = $('<div id="santas-little-helpers-message"><div id="help-msg-container">Per wisch nach links/rechts umblättern :D</div></div>');
+    var oPlane = $('<div id="santas-little-helpers-message"><div id="help-msg-container"><b>Tipp:</b><br>Du kannst per Wisch nach <i>links</i>/<i>rechts</i> in der Karte blättern</div></div>');
 
     oPlane.css({
-        'background-color': 'rgba(0,0,0,0.5)',
+        'background-color': 'rgba(0,0,0,0.75)',
         'position': 'absolute',
         'height': '100%',
         'width': '100%',

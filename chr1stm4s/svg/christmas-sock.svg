@@ -1,13 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="400" viewBox="0 0 240 400" preserveAspectRatio="xMinYMin meet" ><rect id="svgEditorBackground" x="0" y="0" width="600" height="400" style="fill:none;stroke:none;"/>
-<defs>
-  <style type="text/css">
-    @font-face {
-      font-family: Delicious;
-      src: url('../fonts/comic-neue-v2-latin-regular.woff');
-    }
-  </style>
-</defs>
     <path d="M44.978935,143.451054c11.39-8.32,25.26-5.31,39-21c49.74-25.69,63.32-24.93,92-50c6.68,31.93,1.69,63.21,8,78c8.31,47.79,23.17,50.33,36,73c9.83,11.67,11.66,43.43,2,52c-10.66,17.57-40.93,21.34-56,29c-38.07,19.66-35.96,23.56-47,31c-11.04,7.44-19.68,14.14-49,16c-28.32-9.14-25.04-7.91-43-29c-7.96-23.09-8.85-22.1-6-36c4.85-25.9,32.48-36.31,40-45c7.52-8.69,15.29-16.17,17-33c-8.29-30.83-16.39-36.68-33-65Z" style="fill:#e60000;" id="e7_area3"/>
     <path d="M33.978935,142.451054c9.13,1.96,12.04,2.68,24-1c11.96-3.68,47.41-20.36,62-29c25.59-17.64,60.51-32.34,62-44c1.49-11.66-0.95-18.28-3-26c-4.05-19.72-17.58-44.72-27-42c-9.42,2.72-15.84,11.74-26,19c-10.16,7.26-22.43,16.77-58,35c-34.57,14.23-8.61,6.14-58,23c-5.39,8.86-5.84,16.14,0,31c7.84,21.86,14.87,32.04,24,34Z" style="stroke:none;fill:white;" id="e9_area3"/>
-    <text class="text" font-family="Comic Neue" style="fill:snow;font-family:'Comic Neue';font-size:20px;" x="110.037" y="187.361" id="e1_texte" transform="matrix(3.63507 -1.11944 1.11944 3.63507 -506.777 -353.759)">M</text>
+    <text class="text" font-family="Arial" style="fill:snow;font-family:'Arial';font-size:20px;" x="110.037" y="187.361" id="e1_texte" transform="matrix(3.63507 -1.11944 1.11944 3.63507 -512.229 -350.785)">20</text>
 </svg>
